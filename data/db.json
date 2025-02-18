@@ -1,0 +1,586 @@
+{
+  "products": [
+    {
+      "name": "Desktop",
+      "system": "Windows 11",
+      "configuration": {
+        "cpu": "3 cpu",
+        "memory": "8Gb",
+        "storage": "256Gb"
+      },
+      "status": "Active",
+      "applications": {
+        "Teams": "Teams",
+        "Chrome": "Chrome"
+      },
+      "id": "1"
+    },
+    {
+      "name": "Desktop",
+      "system": "Windows 10",
+      "configuration": {
+        "cpu": "2 cpu",
+        "memory": "8Gb",
+        "storage": "512Gb"
+      },
+      "status": "Active",
+      "applications": {
+        "Chrome": "Chrome",
+        "Teams": "Teams"
+      },
+      "id": "2"
+    },
+    {
+      "name": "Desktop",
+      "system": "Windows 12",
+      "configuration": {
+        "cpu": "5 cpu",
+        "memory": "8Gb",
+        "storage": "128Gb"
+      },
+      "status": "Active",
+      "applications": {
+        "Chrome": "Chrome",
+        "VS Code": "VS Code",
+        "Vlc": "Vlc"
+      },
+      "id": "3"
+    },
+    {
+      "name": "Desktop",
+      "system": "Linux",
+      "configuration": {
+        "cpu": "2 cpu",
+        "memory": "4Gb",
+        "storage": "128Gb"
+      },
+      "status": "In Progress",
+      "applications": {
+        "Chrome": "Chrome",
+        "VS Code": "VS Code"
+      },
+      "id": "4"
+    },
+    {
+      "name": "Desktop",
+      "system": "Windows 10",
+      "configuration": {
+        "cpu": "2 cpu",
+        "memory": "4Gb",
+        "storage": "128Gb"
+      },
+      "status": "In Progress",
+      "applications": {
+        "Vlc": "Vlc"
+      },
+      "id": "5"
+    },
+    {
+      "name": "Desktop",
+      "system": "Windows 11",
+      "configuration": {
+        "cpu": "3 cpu",
+        "memory": "8Gb",
+        "storage": "128Gb"
+      },
+      "status": "In Progress",
+      "applications": {
+        "VS Code": "VS Code"
+      },
+      "id": "6"
+    },
+    {
+      "id": "2f01",
+      "name": "Desktop",
+      "system": "Windows 10",
+      "configuration": {
+        "cpu": "4 cpu",
+        "memory": "4Gb",
+        "storage": "128Gb"
+      },
+      "status": "In Progress",
+      "applications": {
+        "Chrome": "Chrome",
+        "Firefox": "Firefox",
+        "Teams": "Teams"
+      }
+    },
+    {
+      "id": "b4d7",
+      "name": "Desktop",
+      "system": "Windows 11",
+      "configuration": {
+        "cpu": "3 cpu",
+        "memory": "16Gb",
+        "storage": "256Gb"
+      },
+      "status": "In Progress",
+      "applications": {
+        "Chrome": "Chrome",
+        "Firefox": "Firefox"
+      }
+    }
+  ],
+  "invoices": [
+    {
+      "id": "1",
+      "productId": "1",
+      "invoiceDate": "25-1-2024",
+      "invoiceAmount": "3999",
+      "paidAmount": "",
+      "status": "Due",
+      "method": "",
+      "description": "Need to pay for Activation",
+      "actions": "Make Payment",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "4235"
+    },
+    {
+      "id": "2",
+      "productId": "1",
+      "invoiceDate": "24-12-2023",
+      "invoiceAmount": "2999",
+      "paidAmount": "1500",
+      "status": "Partially Paid",
+      "method": "Net Banking",
+      "description": "",
+      "actions": "",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "3135"
+    },
+    {
+      "id": "3",
+      "productId": "1",
+      "invoiceDate": "22-11-2023",
+      "invoiceAmount": "1999",
+      "paidAmount": "1999",
+      "status": "Paid",
+      "method": "Credit Card",
+      "description": "Thank you ",
+      "actions": "Reactivate",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "2235"
+    },
+    {
+      "id": "1",
+      "productId": "2",
+      "invoiceDate": "05-02-2024",
+      "invoiceAmount": "5999",
+      "paidAmount": "",
+      "status": "Due",
+      "method": "",
+      "description": "Need to pay for Activation",
+      "actions": "Make Payment",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "6235"
+    },
+    {
+      "id": "2",
+      "productId": "2",
+      "invoiceDate": "07-1-2024",
+      "invoiceAmount": "3999",
+      "paidAmount": "3999",
+      "status": "Paid",
+      "method": "Net Banking",
+      "description": "Thank you",
+      "actions": "Payment Success",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "4235"
+    },
+    {
+      "id": "3",
+      "productId": "2",
+      "invoiceDate": "10-12-2023",
+      "invoiceAmount": "2999",
+      "paidAmount": "1800",
+      "status": "Partially Paid",
+      "method": "Upi",
+      "description": "",
+      "actions": "Make Payment",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "3135"
+    },
+    {
+      "id": "4",
+      "productId": "2",
+      "invoiceDate": "21-11-2023",
+      "invoiceAmount": "999",
+      "paidAmount": "999",
+      "status": "Paid",
+      "method": "Debit Card",
+      "description": "Thank you",
+      "actions": "Payment Success",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "1040"
+    },
+    {
+      "id": "1",
+      "productId": "3",
+      "invoiceDate": "05-02-2024",
+      "invoiceAmount": "5999",
+      "paidAmount": "",
+      "status": "Due",
+      "method": "",
+      "description": "Need to pay for Activation",
+      "actions": "Make Payment",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "6143"
+    },
+    {
+      "id": "2",
+      "productId": "3",
+      "invoiceDate": "07-1-2024",
+      "invoiceAmount": "3999",
+      "paidAmount": "3999",
+      "status": "Paid",
+      "method": "",
+      "description": "Thank you",
+      "actions": "Payment Success",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "4235"
+    },
+    {
+      "id": "1",
+      "productId": "4",
+      "invoiceDate": "10-12-2023",
+      "invoiceAmount": "2999",
+      "paidAmount": "1800",
+      "status": "Partially Paid",
+      "method": "",
+      "description": "",
+      "actions": "Make Payment",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "3215"
+    },
+    {
+      "id": "2",
+      "productId": "4",
+      "invoiceDate": "21-11-2023",
+      "invoiceAmount": "999",
+      "paidAmount": "999",
+      "status": "Paid",
+      "method": "",
+      "description": "Thank you",
+      "actions": "Payment Success",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "1050"
+    },
+    {
+      "id": "1",
+      "productId": "5",
+      "invoiceDate": "05-02-2024",
+      "invoiceAmount": "5999",
+      "paidAmount": "",
+      "status": "Due",
+      "method": "",
+      "description": "Need to pay for Activation",
+      "actions": "Make Payment",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "6200"
+    },
+    {
+      "id": "2",
+      "productId": "5",
+      "invoiceDate": "07-1-2024",
+      "invoiceAmount": "3999",
+      "paidAmount": "3999",
+      "status": "Paid",
+      "method": "",
+      "description": "Thank you",
+      "actions": "Payment Success",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "4235"
+    },
+    {
+      "id": "3",
+      "productId": "5",
+      "invoiceDate": "10-12-2023",
+      "invoiceAmount": "2999",
+      "paidAmount": "1800",
+      "status": "Partially Paid",
+      "method": "",
+      "description": "",
+      "actions": "Make Payment",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "Teams,Chrome",
+      "total": "3050"
+    },
+    {
+      "id": "1",
+      "productId": "6",
+      "invoiceDate": "21-11-2023",
+      "invoiceAmount": "999",
+      "paidAmount": "999",
+      "status": "Paid",
+      "method": "Credit Card",
+      "description": "Thank you",
+      "actions": "Payment Success",
+      "system": "Windows 11",
+      "configuration": " 3 cpu , 8Gb Ram , 256Gb Storage",
+      "applications": "VS Code",
+      "total": "1040"
+    },
+    {
+      "id": "1",
+      "productId": "7",
+      "invoiceDate": "21-11-2023",
+      "invoiceAmount": "999",
+      "paidAmount": "999",
+      "status": "Paid",
+      "method": "",
+      "description": "Thank you",
+      "actions": "Payment Success",
+      "system": "Windows 11",
+      "configuration": "3 cpu , 8Gb Ram , 128Gb Storage",
+      "applications": "VS Code",
+      "total": "1050"
+    }
+  ],
+  "customers": [
+    {
+      "customerId": "001",
+      "name": "Michael ",
+      "address": "Mumbai",
+      "email": "michael@gmail.com",
+      "phoneNumber": "9123412349",
+      "orderDetails": "View",
+      "id": "1"
+    },
+    {
+      "customerId": "002",
+      "name": "Clay ",
+      "address": "Bengaluru",
+      "email": "clay@gmail.com",
+      "phoneNumber": "8889988899",
+      "orderDetails": "View",
+      "id": "2"
+    },
+    {
+      "customerId": "003",
+      "name": "Hennah ",
+      "address": "Bengaluru",
+      "email": "hennah@gmail.com",
+      "phoneNumber": "9666688000",
+      "orderDetails": "View",
+      "id": "3"
+    }
+  ],
+  "neworders": [
+    {
+      "id": "1",
+      "date": "23-02-2024",
+      "name": "Michael ",
+      "specifications": "Windows10 ,4 Core,16Gb Rom,512Gb Ram ",
+      "applications": "Chrome,Teams,VS Code",
+      "paymentStatus": "Accepted"
+    },
+    {
+      "id": "2",
+      "date": "13-02-2024",
+      "name": "Clay ",
+      "specifications": "Linux ,3 Core,8Gb Rom,512Gb Ram ",
+      "applications": "Chrome,Firefox",
+      "paymentStatus": "Accepted"
+    },
+    {
+      "id": "3",
+      "date": "27-02-2024",
+      "name": "Michael ",
+      "specifications": "Windows12 ,5 Core,16Gb Rom,1Tb Ram ",
+      "applications": "Chrome,Teams,VS Code,Firefox,Vlc",
+      "paymentStatus": "Accepted"
+    }
+  ],
+  "activeorders": [
+    {
+      "id": "1",
+      "date": "23-02-2024",
+      "name": "Michael ",
+      "specifications": "Windows10 ,4 Core,16Gb Rom,512Gb Ram ",
+      "applications": "Chrome,Teams,VS Code",
+      "status": "Active till 06-05-2024"
+    },
+    {
+      "id": "2",
+      "date": "13-02-2024",
+      "name": "Clay ",
+      "specifications": "Linux ,3 Core,8Gb Rom,512Gb Ram ",
+      "applications": "Chrome,Firefox",
+      "status": "Active till 16-04-2024"
+    },
+    {
+      "id": "3",
+      "date": "27-02-2024",
+      "name": "Michael ",
+      "specifications": "Windows12 ,5 Core,16Gb Rom,1Tb Ram ",
+      "applications": "Chrome,Teams,VS Code,Firefox,Vlc",
+      "status": "Active till 04-06-2024"
+    }
+  ],
+  "expiredorders": [
+    {
+      "id": "1",
+      "date": "23-02-2024",
+      "name": "Michael ",
+      "specifications": "Windows10 ,4 Core,16Gb Rom,512Gb Ram ",
+      "applications": "Chrome,Teams,VS Code",
+      "status": "06-05-2023"
+    },
+    {
+      "id": "2",
+      "date": "13-02-2024",
+      "name": "Clay ",
+      "specifications": "Linux ,3 Core,8Gb Rom,512Gb Ram ",
+      "applications": "Chrome,Firefox",
+      "status": "16-04-2023"
+    },
+    {
+      "id": "3",
+      "date": "27-02-2024",
+      "name": "Michael ",
+      "specifications": "Windows12 ,5 Core,16Gb Rom,1Tb Ram ",
+      "applications": "Chrome,Teams,VS Code,Firefox,Vlc",
+      "status": "04-06-2023"
+    }
+  ],
+  "userdetails": {
+    "first_name": "User",
+    "last_name": " User",
+    "email": "admin@goda.com",
+    "phone": "9123456789",
+    "address1": "3-235,",
+    "city": "Kakinada",
+    "country": "India",
+    "address2": "Samalkot",
+    "state": "Ap",
+    "postcode": "533434"
+  },
+  "orders": [
+    {
+      "orderId": 1,
+      "orderDate": "23-02-2024",
+      "status": "Active",
+      "user": {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "address": "123 Main St"
+      },
+      "productslist": [
+        {
+          "id": 1,
+          "name": "Windows 10",
+          "configurations": "4cpu ,4Gb Ram,256Gb Storage",
+          "applications": "Chrome,Teams,VS Code",
+          "price": 19.99
+        },
+        {
+          "id": 2,
+          "name": "Linux",
+          "configurations": "2cpu ,8Gb Ram,256Gb Storage",
+          "applications": "Chrome,Vlc",
+          "price": 19.99
+        },
+        {
+          "id": 3,
+          "name": "Linux",
+          "configurations": "3cpu ,4Gb Ram,128Gb Storage",
+          "applications": "Firefox,Teams",
+          "price": 49.99
+        }
+      ],
+      "totals": {
+        "subtotal": 49,
+        "tax": 5.04,
+        "discount": 0,
+        "grandTotal": 90.01
+      },
+      "payment": {
+        "method": "Credit Card",
+        "status": "Paid"
+      },
+      "id": "c4bc"
+    },
+    {
+      "orderId": 2,
+      "orderDate": "17-02-2024",
+      "status": "Active",
+      "user": {
+        "id": 1,
+        "name": "User",
+        "email": "user@example.com",
+        "address": "123 Main St"
+      },
+      "productslist": [
+        {
+          "id": 1,
+          "name": "Windows 12",
+          "configurations": "5cpu ,16Gb Ram,512Gb Storage",
+          "applications": "Firefox,Teams",
+          "price": 56.99
+        },
+        {
+          "id": 2,
+          "name": "Windows 11",
+          "configurations": "2cpu ,8Gb Ram,256Gb Storage",
+          "applications": "Teams,Vlc,Firefox",
+          "price": 28
+        }
+      ],
+      "totals": {
+        "subtotal": 84.07,
+        "tax": 4.04,
+        "discount": 0,
+        "grandTotal": 90.05
+      },
+      "payment": {
+        "method": "Net Banking",
+        "status": "Paid"
+      },
+      "id": "21cb"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "roles": [
+        "admin"
+      ]
+    },
+    {
+      "id": "2",
+      "email": "user@example.com",
+      "roles": [
+        "user"
+      ]
+    }
+  ]
+}
